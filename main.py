@@ -13,4 +13,9 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+words = ['I', 'love', 'Python']
+for w in words:
+    print(w, len(w))
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
